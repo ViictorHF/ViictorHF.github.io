@@ -11,7 +11,6 @@
             color: white;
             font-size: larger;
         }
-
         header {
             position:relative;
             text-align:center;
@@ -20,7 +19,6 @@
             margin-top:-8px;
             border-bottom: 3px solid green;
         }
-
         nav {
             position: relative;
             text-align: center;
@@ -30,7 +28,6 @@
             margin-top: -100px;
             height: 240px;
         }
-
         a {
             text-decoration: none;
             background-color: black;
@@ -40,57 +37,42 @@
             border-radius: 10px;
             border-color: green;
         }
-
         a:hover {
             background-color: #4A4A4A;
         }
-
         .listaNavBar {
             list-style-type: none;
         }
-
         .container {
             height: auto;
-
             display: grid;
             grid-template-columns: 900px 450px;
             grid-template-rows: 350px;
             grid-template-areas: "principal lado";
         }
-
         section {
             grid-area: principal;
-
-            /* height: fit-content; */
-
             text-align: center;
             align-items: center;
             justify-content: center;
-
             margin: 10px;
             border: 5px solid;
             border-radius: 10px;
             border-color: green;
             padding: 10px;
         }
-
         aside {
             grid-area: lado;
-
-            /* height: fit-content; */
             width: auto;
-
             text-align: center;
             align-items: center;
             justify-content: center;
-
             margin: 10px;
             border: 5px solid;
             border-radius: 10px;
             border-color: green;
             padding: 20px;
         }
-
         .foot {
             position: fixed;
             left: 0;
@@ -105,7 +87,6 @@
     <header>
         <h1>Portfolio - Victor Hugo Ferreira</h1>
     </header>
-
     <nav>
         <ul class="listaNavBar">
             <li>
@@ -113,7 +94,6 @@
             </li>
         </ul>
     </nav>
-    
     <div class="container">
         <section>
             <h2>Experiencia Academica:</h2>
@@ -122,7 +102,6 @@
                 <li>Certificado em desenvolvimento de sistemas pela Infinity School</li>
                 <li>Ensino Medio no Colégio Gregor Mendel</li>
             </ul>
-
             <h3>Experiencia basica em ferramentas de programação:</h3>
             <ul>
                 <li>Python</li>
@@ -136,7 +115,6 @@
                 <li>Aprender mais sobre programação</li>
                 <li>Trabalhar em área relacionada à jogos</li>
             </ul>
-
             <h3>Tenho interesse em aprender mais sobre:</h3>
             <ul>
                 <li>C++</li>
@@ -145,7 +123,6 @@
             </ul>
         </aside>
     </div>
-
     <footer class="foot">
         <p>Portfolio - Victor Hugo Ferreira</p>
     </footer>
