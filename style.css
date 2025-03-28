@@ -60,6 +60,7 @@ aside {
     align-items: center;
     justify-content: center;
     margin: 10px;
+    margin-bottom: 20px;
     border: 5px solid;
     border-radius: 10px;
     border-color: green;
@@ -72,4 +73,16 @@ aside {
     width: 100%;
     background-color: green;
     text-align: center;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: large;
+    }
+    img {
+        height: 200px;
+        width: 200px;
+    }
+    .container {
+        display: block;
+    }
 }
